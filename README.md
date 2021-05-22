@@ -1,4 +1,4 @@
-# 200s-javascript-prov
+# 200s-javascript-prov första JavaScript provet
 ## Regler
 * Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
 * Det är tillåtet att använda internet hur mycket man vill.
