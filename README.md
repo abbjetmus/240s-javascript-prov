@@ -42,3 +42,24 @@ Skapa ett objekt som heter plats med följande properties egenskaper: address: �
 
 ## Fråga 8
 Skapa en array med siffrorna 1 till 10. Skriv sedan ut talet 5 med hjälp av arrayen dvs använd rätt index för att få ut talet 5. Skapa sedan en for-loop som loopar igenom arrayen och skriver ut varje tal till konsolen. Använd length för att få arrayens längd.
+
+## Fråga 9
+1. Skapa en checkbox med input-taggen som två-vägs binder med **v-model** till en data variabel som heter **background** med värdet **false**.
+2. Använd sedan två css-klasser i styles-taggen innanför head-taggen som heter "backgroundGreen", och "backgroundRed".
+```
+    <style>
+        .backgroundGreen {
+            background-color: green;
+        }
+
+        .backgroundRed {
+            background-color: red;
+        }
+    </style>
+```
+klasserna ska sätta background-color till red respektive green.
+3. Skapa sedan en div tagg med koden nedan:
+```
+<div style="width: 200px; height: 200px;"></div>
+```
+4. Bind div-taggens class attribut så att backgroundsfärgen ändras mellan rött och grönt när man bockar i och av den.
