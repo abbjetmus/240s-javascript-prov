@@ -63,3 +63,6 @@ klasserna ska sätta background-color till red respektive green.
 <div style="width: 200px; height: 200px;"></div>
 ```
 4. Bind div-taggens class attribut så att backgroundsfärgen ändras mellan rött och grönt när man bockar i och av den.
+
+### Resultat
+![](./assets/uppgift5.gif)
