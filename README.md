@@ -20,32 +20,34 @@ Du får använda valfri editor för att koda men rekommenderar Visual Studio Cod
 Skapa två variabler firstName och lastName som du tilldelar ditt förnamn och efternamn till. Skriv ut ditt hela namn till konsolen med hjälp av konkateneringsopreatorn + så att utskriften blir ”Jeton Mustini” men med ert namn.
 
 
-## Fråga 2 - If-satser
+## Fråga 2 - Datatyper
 Namnge 4 stycken datatyper i JavaScript. Om du vill testa dig fram använd typeof( ) funktionen.
 
 
-## Fråga 3 - For-loopen
+## Fråga 3 - Operatorer
 Använd 4 operatorer med två tal och tilldela dem till en variabel för varje operator. Skriv sedan ut resultatet. Jag visar ett exempel med rest-operatorn, sen gör ni samma sak med de andra operatorerna. let rest = 5%2 console.log(rest)
 
 
-## Fråga 4 - For-loop på lista med objekt
-Deklarera en variabel age med en valfri ålder. Skapa sedan en if-else-sats som kollar om åldern är under 16 år, är den det skriver du ut ”Tyvärr du får inte börja övningsköra!” annars skriver du ut ”Du får börja övningsköra!”.
+## Fråga 4 - Villkor
+Deklarera en variabel age som du läser in från användaren med ```promt()``` funktionen.<br> 
+Skapa sedan en if-else-sats som kollar om åldern är under 16 år, är den det skriver du ut ”Tyvärr du får inte börja övningsköra!” annars skriver du ut ”Du får börja övningsköra!”.
 
-## Fråga 5
+## Fråga 5 - For-loopen
 Skriv en for-loop som börjar vid talet 5 och skriver ut alla talen upp till 20.
 
-## Fråga 6
+## Fråga 6 - Funktioner
 Skriv två funktioner, en funktion multiplicera( ) som multiplicerar två tal och en funktion dividera( ) som dividerar två tal, båda funktionerna ska returnera resultatet. Anropa sedan båda funktionerna en gång med två valfria tal och skriv ut resultatet till konsolen.
 
-## Fråga 7
+## Fråga 7 - Objekt
 Skapa ett objekt som heter plats med följande properties egenskaper: address: ”Robotvägen 24” zipcode: ”722 24” city: ”Västerås” Ändra sedan på objektets city till Ludvika. Skriv sedan ut hela objektet till konsolen.
 
-## Fråga 8
+## Fråga 8 - Array/Lista
 Skapa en array med siffrorna 1 till 10. Skriv sedan ut talet 5 med hjälp av arrayen dvs använd rätt index för att få ut talet 5. Skapa sedan en for-loop som loopar igenom arrayen och skriver ut varje tal till konsolen. Använd length för att få arrayens längd.
 
-## Fråga 9
-1. Skapa en checkbox med input-taggen som två-vägs binder med **v-model** till en data variabel som heter **background** med värdet **false**.
-2. Använd sedan två css-klasser i styles-taggen innanför head-taggen som heter "backgroundGreen", och "backgroundRed".
+## Fråga 9 - Html +  JavaScript
+1. Du har en input tagg av typen checkbox.
+2. Läs in checkboxen med JavaScript och varje gång den bockas respektive av-bockas ska bakgrundsfärgen ändras på div-taggen under.
+3. Du kan applicera css-klasserna i styles-taggen innanför head-taggen som heter "backgroundGreen", och "backgroundRed".
 ```
     <style>
         .backgroundGreen {
@@ -58,11 +60,10 @@ Skapa en array med siffrorna 1 till 10. Skriv sedan ut talet 5 med hjälp av arr
     </style>
 ```
 klasserna ska sätta background-color till red respektive green.
-3. Skapa sedan en div tagg med koden nedan:
 ```
 <div style="width: 200px; height: 200px;"></div>
 ```
-4. Bind div-taggens class attribut så att backgroundsfärgen ändras mellan rött och grönt när man bockar i och av den.
+<b>Byt ut taggen mot en knapp vilket är lättare om checkbox är för svårt. Eller gör båda för övningens skull.</b>
 
 ### Resultat
 ![](./assets/uppgift5.gif)
