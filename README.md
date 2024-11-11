@@ -2,13 +2,18 @@
 ## Regler
 * Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
 * Det är tillåtet att använda internet hur mycket man vill. Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, Chat-GPT m.m. Det räknas som fusk och leder till underkänt.
-* Efter provet kan ni skicka in era svarsfiler som DM till mig via Teams.
-Vet ni hur man zippar så får ni zippa mappen med filerna.<br><br>
+
+// Efter provet kan ni skicka in era svarsfiler som DM till mig via Teams.
+//Vet ni hur man zippar så får ni zippa mappen med filerna.<br><br>
 
 Börja med att klona eller ladda ner projektet.
 <br>
-`git clone https://github.com/abbjetmus/240s-javascript-prov.git`
+`git clone <länk till det här repot>`
+
+//https://github.com/abbjetmus/240s-javascript-prov.git`
 <br>
+Du kan när som helst göra commits och pusha dina ändringar (endast du har tillgång till just den här kopian av repot). Du lämnar in dina lösningar genom att göra en avslutande commit och push. Kontrollera i repositoriet på webläsaren att alla ändringar finns med.
+
 ## Att tänka på
 
 Varje fråga består av en html fil med uppgiftsnumret.<br>
