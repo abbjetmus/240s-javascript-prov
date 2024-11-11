@@ -1,18 +1,21 @@
-# 240S-javascript-prov
+# 240s-javascript-html-css-prov
 ## Regler
 * Inte tillåtet att hjälpa varandra på något sätt, räknas som fusk.
-* Det är tillåtet att använda internet hur mycket man vill. Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, Chat-GPT m.m. Det räknas som fusk och leder till underkänt.
+* Det är tillåtet att använda internet hur mycket man vill. 
+Men absolut inte tillåtet att använda någon form av AI verktyg som Copilot, Chat-GPT m.m. Det räknas som fusk och leder till underkänt.
 
-// Efter provet kan ni skicka in era svarsfiler som DM till mig via Teams.
-//Vet ni hur man zippar så får ni zippa mappen med filerna.<br><br>
 
-Börja med att klona eller ladda ner projektet.
+* Börja med att skapa ett projekt via länken till Github Classroom och klona projektet.
+
+
+```
+git clone https://github.com/abbjetmus/240s-javascript-prov.git
+```
 <br>
-`git clone <länk till det här repot>`
 
-//https://github.com/abbjetmus/240s-javascript-prov.git`
-<br>
-Du kan när som helst göra commits och pusha dina ändringar (endast du har tillgång till just den här kopian av repot). Du lämnar in dina lösningar genom att göra en avslutande commit och push. Kontrollera i repositoriet på webläsaren att alla ändringar finns med.
+* Efter provet kan ni skicka in era ändringar till repot som ni klonade genom att göra en git push från Visual Studio.<br><br>
+
+Du kan när som helst göra commits och pusha dina ändringar (endast du har tillgång till just den här kopian av repot). Du lämnar in dina lösningar genom att göra en avslutande commit och push. Kontrollera i repositoriet på webbläsaren att alla ändringar finns med.
 
 ## Att tänka på
 
@@ -30,8 +33,10 @@ Namnge 4 stycken datatyper i JavaScript. Om du vill testa dig fram använd typeo
 
 
 ## Fråga 3 - Operatorer
-Använd 4 operatorer med två tal och tilldela dem till en variabel för varje operator. Skriv sedan ut resultatet. Jag visar ett exempel med rest-operatorn, sen gör ni samma sak med de andra operatorerna. let rest = 5%2 console.log(rest)
-
+Använd 4 operatorer med två tal och tilldela dem till en variabel för varje operator. Skriv sedan ut resultatet. Jag visar ett exempel med rest-operatorn, sen gör ni samma sak med de andra operatorerna. 
+```js
+let rest = 5%2 console.log(rest)
+```
 
 ## Fråga 4 - Villkor
 Deklarera en variabel age som du läser in från användaren med ```promt()``` funktionen.<br> 
