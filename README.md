@@ -35,7 +35,8 @@ Namnge 4 stycken datatyper i JavaScript. Om du vill testa dig fram använd typeo
 ## Fråga 3 - Operatorer
 Använd 4 operatorer med två tal och tilldela dem till en variabel för varje operator. Skriv sedan ut resultatet. Jag visar ett exempel med rest-operatorn, sen gör ni samma sak med de andra operatorerna. 
 ```js
-let rest = 5%2 console.log(rest)
+let rest = 5%2
+console.log(rest)
 ```
 
 ## Fråga 4 - Villkor
